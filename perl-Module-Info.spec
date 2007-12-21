@@ -16,6 +16,7 @@ Url:            http://search.cpan.org/dist/%{module}
 BuildRequires:	perl-devel
 %endif
 BuildArch: 	noarch
+BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
 %description
 Module::Info gives you information about Perl modules without actually loading
