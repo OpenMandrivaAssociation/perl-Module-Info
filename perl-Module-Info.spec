@@ -1,7 +1,7 @@
 %define module  Module-Info
 %define	name	perl-%{module}
 %define version 0.31
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name: 		%{name}
 Epoch:		1
