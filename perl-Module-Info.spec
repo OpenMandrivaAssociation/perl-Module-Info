@@ -1,16 +1,16 @@
 %define upstream_name    Module-Info
-%define upstream_version 0.32
+%define upstream_version 0.34
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.34
+Release:	1
 Epoch:		1
 
 Summary:	Information about Perl modules 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MB/MBARBON/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/authors/id/M/MB/MBARBON/Module-Info-0.34.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -98,4 +98,5 @@ make test
 
 * Wed Apr 16 2003 Peter Chen <petechen@netilla.com> 0.19-1mdk
 - Initial packaging.
+
 
