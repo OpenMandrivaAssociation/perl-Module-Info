@@ -1,5 +1,5 @@
 %define upstream_name    Module-Info
-%define upstream_version 0.35
+%define upstream_version 0.37
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -14,6 +14,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/M/MB/MBARBON/Module-Info-%{upstr
 
 BuildRequires:  perl(B::Utils)
 BuildRequires:	perl-devel
+BuildRequires:  perl(Test::More)
 BuildArch:	noarch
 
 %description

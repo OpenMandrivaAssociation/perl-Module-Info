@@ -1,5 +1,6 @@
 removed_sources:
   Module-Info-0.32.tar.bz2: 89c8988d717c76d9b2f11a40dbd3d2eb5450eb15
   Module-Info-0.34.tar.gz: b8971ec026ddc0b989d173d568e5664d7b2e6174
-sources:
   Module-Info-0.35.tar.gz: e12e38df973f387c242106e105b00cef20736a4d
+sources:
+  Module-Info-0.37.tar.gz: 45b7f2dae3f58db8dae1abaaf9ed1843e474c07c
