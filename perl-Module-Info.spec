@@ -9,7 +9,7 @@ Epoch:		1
 Summary:	Information about Perl modules 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MB/MBARBON/Module-Info-%{upstream_version}.tar.gz
 
 BuildRequires:  perl(B::Utils)
