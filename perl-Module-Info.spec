@@ -12,6 +12,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MB/MBARBON/Module-Info-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  perl(B::Utils)
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test::More)
