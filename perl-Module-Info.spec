@@ -1,16 +1,16 @@
 %define upstream_name    Module-Info
-%define upstream_version 0.37
+%define upstream_version 0.39
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 Epoch:		1
 
 Summary:	Information about Perl modules 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MB/MBARBON/Module-Info-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Module-Info
+Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/Module-Info-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:  perl(B::Utils)
