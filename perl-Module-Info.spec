@@ -10,7 +10,7 @@ Summary:	Information about Perl modules
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Module-Info
-Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/Module-Info-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/Module-Info-0.39.tar.gz
 
 BuildRequires:	make
 BuildRequires:  perl(B::Utils)
@@ -45,4 +45,3 @@ make test
 %{perl_vendorlib}/Module
 
 
-%changelog
