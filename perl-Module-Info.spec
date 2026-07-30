@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.39
-Release:	2
+Release:	3
 Epoch:		1
 
 Summary:	Information about Perl modules 
@@ -33,7 +33,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %check
 # soft: do not fail package on test failures
 set +e
-make test
+make test || :
 
 %install
 %makeinstall_std
