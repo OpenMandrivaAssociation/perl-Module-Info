@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.39
-Release:	12
+Release:	13
 Epoch:		1
 
 Summary:	Information about Perl modules 
