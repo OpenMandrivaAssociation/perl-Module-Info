@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.39
-Release:	14
+Release:	1
 Epoch:		1
 
 Summary:	Information about Perl modules 
@@ -28,8 +28,7 @@ code.
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
-%make
-
+%make_build
 %check
 # soft: do not fail package on test failures
 set +e
@@ -40,7 +39,7 @@ make test || :
 
 %files 
 %defattr(-,root,root,755)
-%doc Changes
+%doc Changes META.yml README
 %{_bindir}/*
 %{_mandir}/man*/*
 %{perl_vendorlib}/B
