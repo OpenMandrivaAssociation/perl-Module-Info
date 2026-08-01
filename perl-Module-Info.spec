@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.39
-Release:	2
+Release:	3
 Epoch:		1
 
 Summary:	Information about Perl modules 
@@ -13,7 +13,8 @@ Url:		https://metacpan.org/dist/Module-Info
 Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/Module-Info-0.39.tar.gz
 
 BuildRequires:	make
-BuildRequires:  perl(B::Utils)
+BuildRequires:	perl(B::Utils) >= 0.270.0
+BuildRequires:	perl-B-Utils >= 0.270.0-4
 BuildRequires:	perl-devel
 BuildRequires:  perl(Test::More)
 BuildArch:	noarch
